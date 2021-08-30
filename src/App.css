@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 :root {
   --primary-white: #fff;
@@ -17,9 +17,9 @@
   pointer-events: none;
 }
 
-body {
-  font-family: "Bebas Neue", sans-serif;
-}
+/* body {
+  
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
