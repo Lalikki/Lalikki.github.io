@@ -121,7 +121,24 @@ nav ul li {
   text-decoration-color: var(--primary-orange);
 }
 
+/*ABOUT PAGE*/
+.about-wrapper {
+  position: relative;
+  
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
 
+.about-main {
+  display: flex;
+  position: relative;
+  padding-top: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 /*HEADER*/
 .header-wrapper {
@@ -135,13 +152,11 @@ nav ul li {
 .main-info{
   display: flex;
   position: relative;
-  
   padding-top: 7rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
   z-index: 1;
 }
 
