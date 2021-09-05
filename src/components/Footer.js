@@ -73,7 +73,7 @@ const Footer = () => {
 
 
 
-                        <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-1">
+                        {/* <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-1">
 
                             <h6 className="text-uppercase fw-bold mb-2">
                                 Some of my projects
@@ -85,7 +85,7 @@ const Footer = () => {
                                 <a href="https://boiling-oasis-93205.herokuapp.com/" className="project-link">YelpCamp</a>
                             </p>
 
-                        </div>
+                        </div> */}
 
                         <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-1">
                             <h6 className="text-uppercase fw-bold mb-2">

@@ -48,6 +48,7 @@ const Header = () => {
                     backSpeed={60}
                     loop
                 />
+                <a href="/about" className="btn-main-offer">Download CV</a>
             </div>
 
         </div>

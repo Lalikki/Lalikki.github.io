@@ -115,9 +115,7 @@ nav ul li {
 }
 
 .footer-main h6 {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 0.156rem;
+  
   text-decoration-color: var(--primary-orange);
 }
 
@@ -152,9 +150,15 @@ nav ul li {
   color: var(--primary-orange);
 }
 
+.container h6 {
+  color: var(--primary-orange);
+  padding-top: 0.5rem;
+}
+
 .content-paragraph {
   font-family: 'Inconsolata', monospace;
   color: var(--primary-white);
+  padding-left: 0.25rem;
 }
 
 /*ABOUT PAGE*/
@@ -237,20 +241,20 @@ nav ul li {
 }
 
 /*HEADER MAIN BUTTON*/
-/* .btn-main-offer {
+.btn-main-offer {
   border: 2px solid var(--primary-orange);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.6rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 1.5rem;
-} */
+} 
 
-/* .btn-main-offer:hover{
+.btn-main-offer:hover{
   text-decoration: none;
   background-color: var(--primary-orange);
   transition: .2s ease-in-out;
-} */
+}
 
 /*PARTICLES*/
 .tsparticles-canvas-el {
