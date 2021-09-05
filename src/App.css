@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
 
 :root {
   --primary-white: #fff;
@@ -121,10 +121,46 @@ nav ul li {
   text-decoration-color: var(--primary-orange);
 }
 
+/*EXPERIENCE PAGE*/
+.experience-wrapper {
+  background: url(experience-background4.jpg) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  /* height: 90vh; */
+}
+
+
+
+.col {
+  border: 2px solid black;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.container h1 {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--primary-orange);
+}
+
+
+.container h4 {
+  padding-bottom: 0.75rem;
+  color: var(--primary-orange);
+}
+
+.content-paragraph {
+  font-family: 'Inconsolata', monospace;
+  color: var(--primary-white);
+}
+
 /*ABOUT PAGE*/
 .about-wrapper {
   position: relative;
-  
+  background: url(experience-background4.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
