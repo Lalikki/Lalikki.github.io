@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import './styles/about.css';
 
 :root {
   --primary-white: #fff;
@@ -119,6 +120,7 @@ nav ul li {
   text-decoration-color: var(--primary-orange);
 }
 
+
 /*EXPERIENCE PAGE*/
 .experience-wrapper {
   background: url(experience-background4.jpg) no-repeat;
@@ -170,7 +172,8 @@ nav ul li {
   height: 90vh;
 }
 
-.about-main {
+
+/* .about-main {
   display: flex;
   position: relative;
   padding-top: 3rem;
@@ -178,7 +181,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+} */
 
 /*HEADER*/
 .header-wrapper {

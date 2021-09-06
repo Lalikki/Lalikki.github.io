@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+.about-wrapper h1 {
+    text-transform: uppercase;
+}
+
+#mycard {
+    width: 22rem;
+    background-color: rgba(71, 74, 70, 0.6);
+    font-family: 'Inconsolata', monospace;
+}
+
+#mycard ul li {
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
+}
+
+#mycard .card-title {
+    color: var(--primary-orange);
+}
+
+#mycard .social-link { 
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#mycard .btn-main-offer {
+    align-items: center;
+    justify-content: center !important;
+}
+
+#mycard .card-body {
+   
+}

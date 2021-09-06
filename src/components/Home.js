@@ -33,7 +33,7 @@ const Header = () => {
             {/* Upper main-info */}
             <div className="main-info">
                 <h1>Lauri Järvinen</h1>
-                <h3>ICT-Specialist</h3>
+                <h3>Front-End developer</h3>
 
                 {/* <Link to="/about" className="btn-main-offer">Let's go!</Link> */}
             </div>
