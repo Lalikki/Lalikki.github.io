@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
 @import './styles/about.css';
+@import './styles/portfolio.css';
 
 :root {
   --primary-white: #fff;
@@ -120,6 +121,14 @@ nav ul li {
   text-decoration-color: var(--primary-orange);
 }
 
+/*PORTFOLIO PAGE*/
+.portfolio-wrapper {
+  position: relative;
+  background: url(experience-background4.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
 
 /*EXPERIENCE PAGE*/
 .experience-wrapper {
