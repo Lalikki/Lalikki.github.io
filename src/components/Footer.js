@@ -66,7 +66,7 @@ const Footer = () => {
                             </h6>
                             <p>
                                 My name is Lauri and I'm 26 years old. Currently living in Tampere and working as an ICT-Specialist.
-                                My main focus is to learn Front-End development.
+                                My main focus is to learn Front End development.
                             </p>
                         </div>
 

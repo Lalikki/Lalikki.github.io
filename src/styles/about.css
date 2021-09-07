@@ -29,6 +29,14 @@
     justify-content: center !important;
 }
 
-#mycard .card-body {
-   
+.about-content {
+    margin-bottom: 1rem;
 }
+
+.skillbar-percent {
+    color: black;
+    font-weight: 800;
+    
+}
+
+
