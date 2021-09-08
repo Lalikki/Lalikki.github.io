@@ -35,7 +35,6 @@ const About = () => {
 
                     </div>
 
-
                     <div className="col-sm-8 about-content" >
                         <h4>My story</h4>
 
@@ -44,7 +43,7 @@ const About = () => {
                             After school I worked in ICT-local support for about 2 years. Currently I'm working as an ICT-Specialist, mostly remotely.
                         </p>
 
-                        <p className="content-paragraph">Never worked as a programmer but coding has been my hobby over 4 years now.
+                        <p className="content-paragraph">I haven't been employed in a software company yet but coding has been my hobby over 4 years now.
                             My interests are in Front End development and working hard every day to be a real programmer someday.
                         </p>
 
@@ -55,18 +54,11 @@ const About = () => {
 
 
                         <Skills />
-
                     </div>
                 </div>
-
-
-
             </div>
 
         </div>
-
-
-
 
     );
 }

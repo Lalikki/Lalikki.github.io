@@ -6,7 +6,7 @@ const Portfolio = () => {
         <div className="portfolio-wrapper">
             <div className="container">
 
-                <h1>Portfolio</h1>
+                <h1>Work in progress...</h1>
                 <Carousel />
             </div>
         </div>
