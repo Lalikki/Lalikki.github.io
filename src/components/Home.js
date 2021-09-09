@@ -1,9 +1,11 @@
 import React from "react";
 import Typed from "react-typed";
 import Particles from "react-particles-js";
+import CV from '../CV_Jarvinen_Lauri.pdf';
 
 
 const Header = () => {
+
     return (
 
         <div className="header-wrapper">
@@ -33,9 +35,7 @@ const Header = () => {
             {/* Upper main-info */}
             <div className="main-info">
                 <h1>Lauri Järvinen</h1>
-                <h3>Front-End developer</h3>
-
-                {/* <Link to="/about" className="btn-main-offer">Let's go!</Link> */}
+                <h3>ICT-Specialist</h3>
             </div>
 
             {/* Lower main-info */}
@@ -43,12 +43,12 @@ const Header = () => {
                 <h2>My techstack</h2>
                 <Typed
                     className="typed-text"
-                    strings={["HTML", "CSS", "JavaScript", "React", "Vue", "VBScript"]}
+                    strings={["HTML", "CSS", "C#", "JavaScript", "React", "VBScript"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
                 />
-                <a href="/about" className="btn-main-offer">Download CV</a>
+                <a href={CV} download className="btn-main-offer">Download CV</a>
             </div>
 
         </div>

@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faPhone, faEnvelope, faBriefcase, faBirthdayCake } from '@fortawesome/free-solid-svg-icons';
 import Skills from "./Skills";
+import CV from '../CV_Jarvinen_Lauri.pdf';
+import { aboutContent } from '../utils/Content'
 
 const About = () => {
     return (
@@ -11,6 +13,7 @@ const About = () => {
             <div className="container">
                 <h1>About me</h1>
 
+                {/* Card content */}
                 <div className="row">
                     <div className="col-sm-4 about-content" >
                         <div id="mycard" className="card d-flex">
@@ -28,30 +31,21 @@ const About = () => {
                                 <li className="list-group-item"><p><FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> +358405346405</p></li>
                             </ul>
                             <div className="card-body d-flex justify-content-center">
-                                <a href="/about" className="btn-main-offer">Download CV</a>
+                                <a href={CV} download className="btn-main-offer">Download CV</a>
                             </div>
 
                         </div>
 
                     </div>
 
+                    {/* Other content and skills bar */}
                     <div className="col-sm-8 about-content" >
                         <h4>My story</h4>
+                        {aboutContent.map(({ paragraph }, index) => (
 
-                        <p className="content-paragraph">Hi! My name is Lauri, I'm 26 years old and living in Tampere.
-                            I worked as a chef 4 years and I started my IT-career in 2018 after Bachelor's Degree in Business Information Technology.
-                            After school I worked in ICT-local support for about 2 years. Currently I'm working as an ICT-Specialist, mostly remotely.
-                        </p>
+                            <p className="content-paragraph">{paragraph}</p>
 
-                        <p className="content-paragraph">I haven't been employed in a software company yet but coding has been my hobby over 4 years now.
-                            My interests are in Front End development and working hard every day to be a real programmer someday.
-                        </p>
-
-                        <p className="content-paragraph">I have a home office dog named Luca and he likes his job.
-                            My favourite color is orange, as you can see.
-                            I enjoy good food, playing video games, coding and learning new things.
-                        </p>
-
+                        ))}
 
                         <Skills />
                     </div>

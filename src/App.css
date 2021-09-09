@@ -124,7 +124,7 @@ nav ul li {
 /*PORTFOLIO PAGE*/
 .portfolio-wrapper {
   position: relative;
-  background: url(experience-background4.jpg) no-repeat;
+  background: url(Images/experience-background4.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -132,7 +132,7 @@ nav ul li {
 
 /*EXPERIENCE PAGE*/
 .experience-wrapper {
-  background: url(experience-background4.jpg) no-repeat;
+  background: url(Images/experience-background4.jpg) no-repeat;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -177,7 +177,7 @@ nav ul li {
 /*ABOUT PAGE*/
 .about-wrapper {
   position: relative;
-  background: url(experience-background4.jpg) no-repeat;
+  background: url(Images/experience-background4.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   /* height: 90vh; */
@@ -197,7 +197,7 @@ nav ul li {
 /*HEADER*/
 .header-wrapper {
   position: relative;
-  background: url(background-code.jpg) no-repeat;
+  background: url(Images/background-code.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;

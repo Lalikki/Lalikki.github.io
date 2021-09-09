@@ -3,19 +3,19 @@ import Skillbar from 'react-skillbars';
 
 const skills = [
     {
-        type: "HTML", level: 80
+        type: "HTML", level: 70
     },
     {
-        type: "CSS", level: 70
+        type: "CSS", level: 60
     },
     {
-        type: "JavaScript", level: 65
+        type: "C#", level: 65
     },
     {
         type: "React", level: 50
     },
     {
-        type: "Vue", level: 35
+        type: "JavaScript", level: 60
     },
     {
         type: "VBScript", level: 50
