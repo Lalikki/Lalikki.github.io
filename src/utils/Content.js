@@ -41,7 +41,7 @@ export const otherContent = [
     {
         title: "Bachelor's degree in Business Information Technology",
         description: "Häme University of Applied Sciences",
-        details: "210 credits and 3,5 years full time studying. Study time : 2014 - 2018"
+        details: "210 credits and 3,5 years full time studying during 2014 - 2018"
     },
 
 ];
