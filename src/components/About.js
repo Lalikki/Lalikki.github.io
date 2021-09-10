@@ -15,7 +15,7 @@ const About = () => {
 
                 {/* Card content */}
                 <div className="row">
-                    <div className="col-sm-4 about-content" >
+                    <div className="col-sm-4 mb-5" >
                         <div id="mycard" className="card d-flex">
                             <img src="https://mdbootstrap.com/img/new/standard/city/062.jpg" alt="" className="card-img-top" />
 
@@ -39,7 +39,7 @@ const About = () => {
                     </div>
 
                     {/* Other content and skills bar */}
-                    <div className="col-sm-8 about-content" >
+                    <div className="col-sm-8 mb-5 about-content">
                         <h4>My story</h4>
                         {aboutContent.map(({ paragraph }, index) => (
 

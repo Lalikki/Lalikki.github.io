@@ -30,7 +30,8 @@
 }
 
 .about-content {
-    margin-bottom: 1rem;
+    
+    background-color: rgba(71, 74, 70, 0.3);
 }
 
 .skillbar-percent {
