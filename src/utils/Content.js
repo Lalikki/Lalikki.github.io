@@ -15,15 +15,33 @@ export const aboutContent = [
 export const jobContent = [
     {
         title: "ICT Local support",
-        description: `Worked as ICT local support during 2018-2020 \
-        Company: Patria Oyj (Fujitsu Finland Oy) \
-        Location: Hatanpään valtatie 30, Tampere`
+        description: "Worked as ICT local support during 2018-2020 at Patria Oyj (Fujitsu Finland Oy). Office located in Tampere.",
+
+        responsibilities: "ICT logistics, delivering new hardware to users, solving problems, installing and configuring computer hardware, software, networks and printers."
+    },
+    {
+        title: "ICT-Specialist",
+        description: "Working now as an ICT-Specialist from spring 2020 at Patria Oyj (ICT Elmo Oy). Office located in Tampere but mostly working remotely.",
+
+        responsibilities: "SCCM package maintenance, Software packaging and distributing (using VBScript), solving workstation problems and software installation problems, Microsoft Power Platform development and monitoring."
     }
 ];
 
 export const otherContent = [
     {
         title: "Python basics course (3 credits)",
+        description: "Metropolia University of Applied Sciences",
+        details: "Strings, numbers, variables, lists, functions, if...Else, loops, arrays"
+    },
+    {
+        title: "Web development bootcamp 2021 Udemy online course",
+        description: "Total 63 hours of material",
+        details: "Used technologies: JavaScript, Express, Node, EJS, MongoDB"
+    },
+    {
+        title: "Bachelor's degree in Business Information Technology",
+        description: "Häme University of Applied Sciences",
+        details: "210 credits and 3,5 years full time studying. Study time : 2014 - 2018"
+    },
 
-    }
-]
+];
