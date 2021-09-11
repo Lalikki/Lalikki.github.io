@@ -1,5 +1,5 @@
-import foxInTheBox from '../Images/foxInTheBox1.PNG';
-import yelpCamp from '../Images/yelpCamp1.PNG';
+import foxInTheBox from '../Images/foxInTheBox1.png';
+import yelpCamp from '../Images/yelpCamp1.png';
 
 
 export const carouselContent = [
