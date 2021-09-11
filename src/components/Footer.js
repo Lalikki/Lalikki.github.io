@@ -35,7 +35,7 @@ const Footer = () => {
                             </h6>
                             <p>
                                 Just a regular guy who lives in Tampere and working as an ICT-Specialist.
-                                My main focus is to learn Front End development.
+                                Working hard every day to be a real programmer someday.
                             </p>
                         </div>
 

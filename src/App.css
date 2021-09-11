@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
 @import './styles/about.css';
 @import './styles/portfolio.css';
+@import './styles/carousel.css';
 
 :root {
   --primary-white: #fff;
