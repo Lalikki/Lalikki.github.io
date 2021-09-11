@@ -3,29 +3,34 @@ import { carouselContent } from '../utils/CarouselContent';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
+
 const Carousel = () => {
 
     const [currImg, setCurrImg] = useState(0);
-    console.log(currImg)
-
+    // const slideImage = document.querySelectorAll(".slide-image");
+    // let currentActiveSlide = 0;
+    // const navigationDots = document.querySelector(".navigation-dots");
 
     const setActiveClass = () => {
-        let firstDot = document.querySelector(".first-dot");
-        let secondDot = document.querySelector(".second-dot");
 
-        let currentActive = document.querySelector(".single-dot.active");
-        currentActive.classList.remove("active");
+        // let firstDot = document.querySelector(".first-dot");
+        // let secondDot = document.querySelector(".second-dot");
 
-        if (currImg === 1) {
-            firstDot.classList.add("active");
-        }
-        if (currImg === 0) {
-            secondDot.classList.add("active");
-        }
+        // let currentActive = document.querySelector(".single-dot.active");
+        // currentActive.classList.remove("active");
+
+        // navigationDots.children[currImg].classList.add("active");
+        // if (currImg === 1) {
+        //     firstDot.classList.add("active");
+        // }
+        // if (currImg === 0) {
+        //     secondDot.classList.add("active");
+        // }
 
     }
 
     return (
+
         <div className="container">
             <div className="carousel">
                 <div className="carousel-inner">
@@ -34,20 +39,19 @@ const Carousel = () => {
                     <div className="left-carousel" onClick={() => {
                         if (currImg > 0) {
                             setCurrImg(currImg - 1);
-                            setActiveClass();
+
                         }
 
                     }}>
                         <FontAwesomeIcon icon={faArrowLeft} size="3x"></FontAwesomeIcon>
                     </div>
                     <div className="center-carousel">
-                        <img src={carouselContent[currImg].image} alt="" />
+                        <img className="slide-image" src={carouselContent[currImg].image} alt="" />
                     </div>
                     <div className="right-carousel" onClick={() => {
                         if (currImg < carouselContent.length - 1) {
-
                             setCurrImg(currImg + 1);
-                            setActiveClass();
+
                         }
 
                     }}>
@@ -57,10 +61,10 @@ const Carousel = () => {
                 </div>
             </div>
             <div className="navigation-dots">
-                <div className="single-dot active first-dot"></div>
-                <div className="single-dot second-dot"></div>
-
+                <div className={currImg === 0 ? "single-dot active" : "single-dot"}></div>
+                <div className={currImg === 1 ? "single-dot active" : "single-dot"}></div>
             </div>
+
 
             <div className="carousel-content">
                 <h4>{carouselContent[currImg].title}</h4>
