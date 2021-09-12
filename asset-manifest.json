@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.edc3630b.chunk.css",
-    "main.js": "/static/js/main.540cb0a8.chunk.js",
-    "main.js.map": "/static/js/main.540cb0a8.chunk.js.map",
+    "main.css": "/static/css/main.3d701671.chunk.css",
+    "main.js": "/static/js/main.7b5c74e8.chunk.js",
+    "main.js.map": "/static/js/main.7b5c74e8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2712e8c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.2712e8c0.js.map",
     "static/css/2.ac5ea972.chunk.css": "/static/css/2.ac5ea972.chunk.css",
@@ -12,19 +12,20 @@
     "static/js/3.41a9d90a.chunk.js.map": "/static/js/3.41a9d90a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ac5ea972.chunk.css.map": "/static/css/2.ac5ea972.chunk.css.map",
-    "static/css/main.edc3630b.chunk.css.map": "/static/css/main.edc3630b.chunk.css.map",
+    "static/css/main.3d701671.chunk.css.map": "/static/css/main.3d701671.chunk.css.map",
     "static/js/2.aba1b818.chunk.js.LICENSE.txt": "/static/js/2.aba1b818.chunk.js.LICENSE.txt",
     "static/media/CV_Jarvinen_Lauri.1425e111.pdf": "/static/media/CV_Jarvinen_Lauri.1425e111.pdf",
     "static/media/App.css": "/static/media/experience-background4.507a1fec.jpg",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/foxInTheBox1.a13e2654.png": "/static/media/foxInTheBox1.a13e2654.png",
+    "static/media/profile_picture.b2a33876.png": "/static/media/profile_picture.b2a33876.png",
     "static/media/yelpCamp1.4202c7a0.png": "/static/media/yelpCamp1.4202c7a0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2712e8c0.js",
     "static/css/2.ac5ea972.chunk.css",
     "static/js/2.aba1b818.chunk.js",
-    "static/css/main.edc3630b.chunk.css",
-    "static/js/main.540cb0a8.chunk.js"
+    "static/css/main.3d701671.chunk.css",
+    "static/js/main.7b5c74e8.chunk.js"
   ]
 }
