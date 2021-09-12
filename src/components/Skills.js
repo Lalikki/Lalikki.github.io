@@ -19,6 +19,12 @@ const skills = [
     },
     {
         type: "VBScript", level: 50
+    },
+    {
+        type: "Vue", level: 30
+    },
+    {
+        type: "PowerApps", level: 60
     }
 ];
 

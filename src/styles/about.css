@@ -4,6 +4,12 @@
     text-transform: uppercase;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+}
+
 #mycard {
     width: 22rem;
     background-color: rgba(71, 74, 70, 0.4);

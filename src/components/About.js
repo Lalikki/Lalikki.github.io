@@ -5,6 +5,7 @@ import { faPhone, faEnvelope, faBriefcase, faBirthdayCake } from '@fortawesome/f
 import Skills from "./Skills";
 import CV from '../CV_Jarvinen_Lauri.pdf';
 import { aboutContent } from '../utils/Content'
+import profilePicture from '../Images/profile_picture.png';
 
 const About = () => {
     return (
@@ -17,7 +18,7 @@ const About = () => {
                 <div className="row">
                     <div className="col-sm-4 mb-5" >
                         <div id="mycard" className="card d-flex">
-                            <img src="https://mdbootstrap.com/img/new/standard/city/062.jpg" alt="" className="card-img-top" />
+                            <img src={profilePicture} alt="" className="card-img-top" />
 
                             <div className="card-body d-flex justify-content-center">
                                 <h5 className="card-title">Lauri Järvinen</h5>

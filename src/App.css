@@ -139,7 +139,8 @@ nav ul li {
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 75vh;
+  overflow: hidden;
+  /* height: 75vh; */
  
 }
 
@@ -150,7 +151,7 @@ nav ul li {
   background-color: rgba(71, 74, 70, 0.3);
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .container h1 {
@@ -164,6 +165,7 @@ nav ul li {
 
 .container h4 {
   padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
   color: var(--primary-orange);
 }
 
