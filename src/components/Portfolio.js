@@ -5,13 +5,10 @@ const Portfolio = () => {
     return (
         <div className="portfolio-wrapper">
             <div className="container">
-
-
                 <h1>Portfolio</h1>
 
-
+                <Carousel />
             </div>
-            <Carousel />
         </div >
     )
 }

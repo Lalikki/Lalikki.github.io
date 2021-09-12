@@ -129,7 +129,8 @@ nav ul li {
   background: url(Images/experience-background4.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  overflow: hidden;
+  /* height: 90vh; */
 }
 
 /*EXPERIENCE PAGE*/
@@ -175,6 +176,7 @@ nav ul li {
   font-family: 'Inconsolata', monospace;
   color: var(--primary-white);
   padding-left: 0.25rem;
+  text-shadow: 4px 4px 4px #000000;
 }
 
 /*ABOUT PAGE*/
